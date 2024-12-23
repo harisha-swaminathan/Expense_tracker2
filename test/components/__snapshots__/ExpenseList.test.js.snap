@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expenseList is rendered with empty array as expected 1`] = `
+<DocumentFragment>
+   
+  <p>
+     No expenses 
+  </p>
+   
+</DocumentFragment>
+`;
+
+exports[`expenseList is rendered with expenses as expected 1`] = `
+<DocumentFragment>
+   
+  <a
+    href="/edit/1"
+  >
+    <h3>
+      celine bag
+    </h3>
+  </a>
+   
+  <br />
+  <p>
+    850 - 123
+  </p>
+  <a
+    href="/edit/2"
+  >
+    <h3>
+      diamond ring
+    </h3>
+  </a>
+   
+  <br />
+  <p>
+    1250 - 456
+  </p>
+  <a
+    href="/edit/3"
+  >
+    <h3>
+      jeans
+    </h3>
+  </a>
+   
+  <br />
+  <p>
+    80 - 789
+  </p>
+   
+</DocumentFragment>
+`;

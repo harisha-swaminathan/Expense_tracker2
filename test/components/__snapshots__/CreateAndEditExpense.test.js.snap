@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expenseList is rendered with expenses as expected 1`] = `
+<DocumentFragment>
+   
+  <form
+    data-testid="form-element"
+  >
+    <input
+      placeholder="Description"
+      type="text"
+      value="celine bag"
+    />
+    <input
+      placeholder="Amount"
+      type="text"
+      value="8.5"
+    />
+    <div
+      class="react-datepicker-wrapper"
+    >
+      <div
+        class="react-datepicker__input-container react-datepicker__view-calendar-icon"
+      >
+        <svg
+          class="react-datepicker__calendar-icon "
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+          />
+        </svg>
+        <input
+          class=""
+          type="text"
+          value="07/19/1996"
+        />
+      </div>
+    </div>
+    <textarea
+      placeholder="add a note for you expense"
+    >
+      bday gift to myself
+    </textarea>
+    <button
+      data-testid="form-submit"
+    >
+       Add Expense
+    </button>
+  </form>
+   
+</DocumentFragment>
+`;
+
+exports[`expenseList is rendered without any expense as expected 1`] = `
+<DocumentFragment>
+   
+  <form
+    data-testid="form-element"
+  >
+    <input
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      placeholder="Amount"
+      type="text"
+      value=""
+    />
+    <div
+      class="react-datepicker-wrapper"
+    >
+      <div
+        class="react-datepicker__input-container react-datepicker__view-calendar-icon"
+      >
+        <svg
+          class="react-datepicker__calendar-icon "
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+          />
+        </svg>
+        <input
+          class=""
+          type="text"
+          value="07/19/1996"
+        />
+      </div>
+    </div>
+    <textarea
+      placeholder="add a note for you expense"
+    />
+    <button
+      data-testid="form-submit"
+    >
+       Add Expense
+    </button>
+  </form>
+   
+</DocumentFragment>
+`;
+
+exports[`should not set amount on invalid input 1`] = `
+<DocumentFragment>
+   
+  <form
+    data-testid="form-element"
+  >
+    <input
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      placeholder="Amount"
+      type="text"
+      value=""
+    />
+    <div
+      class="react-datepicker-wrapper"
+    >
+      <div
+        class="react-datepicker__input-container react-datepicker__view-calendar-icon"
+      >
+        <svg
+          class="react-datepicker__calendar-icon "
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+          />
+        </svg>
+        <input
+          class=""
+          type="text"
+          value="07/19/1996"
+        />
+      </div>
+    </div>
+    <textarea
+      placeholder="add a note for you expense"
+    />
+    <button
+      data-testid="form-submit"
+    >
+       Add Expense
+    </button>
+  </form>
+   
+</DocumentFragment>
+`;
+
+exports[`should render error 1`] = `
+<DocumentFragment>
+   
+  <p>
+    Please provide Description and amount!
+  </p>
+  <form
+    data-testid="form-element"
+  >
+    <input
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      placeholder="Amount"
+      type="text"
+      value=""
+    />
+    <div
+      class="react-datepicker-wrapper"
+    >
+      <div
+        class="react-datepicker__input-container react-datepicker__view-calendar-icon"
+      >
+        <svg
+          class="react-datepicker__calendar-icon "
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+          />
+        </svg>
+        <input
+          class=""
+          type="text"
+          value="07/19/1996"
+        />
+      </div>
+    </div>
+    <textarea
+      placeholder="add a note for you expense"
+    />
+    <button
+      data-testid="form-submit"
+    >
+       Add Expense
+    </button>
+  </form>
+   
+</DocumentFragment>
+`;
+
+exports[`should set amount on valid input 1`] = `
+<DocumentFragment>
+   
+  <form
+    data-testid="form-element"
+  >
+    <input
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      placeholder="Amount"
+      type="text"
+      value="12.50"
+    />
+    <div
+      class="react-datepicker-wrapper"
+    >
+      <div
+        class="react-datepicker__input-container react-datepicker__view-calendar-icon"
+      >
+        <svg
+          class="react-datepicker__calendar-icon "
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+          />
+        </svg>
+        <input
+          class=""
+          type="text"
+          value="07/19/1996"
+        />
+      </div>
+    </div>
+    <textarea
+      placeholder="add a note for you expense"
+    />
+    <button
+      data-testid="form-submit"
+    >
+       Add Expense
+    </button>
+  </form>
+   
+</DocumentFragment>
+`;
+
+exports[`should set description on input change 1`] = `
+<DocumentFragment>
+   
+  <form
+    data-testid="form-element"
+  >
+    <input
+      placeholder="Description"
+      type="text"
+      value="new description"
+    />
+    <input
+      placeholder="Amount"
+      type="text"
+      value=""
+    />
+    <div
+      class="react-datepicker-wrapper"
+    >
+      <div
+        class="react-datepicker__input-container react-datepicker__view-calendar-icon"
+      >
+        <svg
+          class="react-datepicker__calendar-icon "
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+          />
+        </svg>
+        <input
+          class=""
+          type="text"
+          value="07/19/1996"
+        />
+      </div>
+    </div>
+    <textarea
+      placeholder="add a note for you expense"
+    />
+    <button
+      data-testid="form-submit"
+    >
+       Add Expense
+    </button>
+  </form>
+   
+</DocumentFragment>
+`;
+
+exports[`should set notes on input change 1`] = `
+<DocumentFragment>
+   
+  <form
+    data-testid="form-element"
+  >
+    <input
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+    <input
+      placeholder="Amount"
+      type="text"
+      value=""
+    />
+    <div
+      class="react-datepicker-wrapper"
+    >
+      <div
+        class="react-datepicker__input-container react-datepicker__view-calendar-icon"
+      >
+        <svg
+          class="react-datepicker__calendar-icon "
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
+          />
+        </svg>
+        <input
+          class=""
+          type="text"
+          value="07/19/1996"
+        />
+      </div>
+    </div>
+    <textarea
+      placeholder="add a note for you expense"
+    >
+      a new bag for my bday
+    </textarea>
+    <button
+      data-testid="form-submit"
+    >
+       Add Expense
+    </button>
+  </form>
+   
+</DocumentFragment>
+`;

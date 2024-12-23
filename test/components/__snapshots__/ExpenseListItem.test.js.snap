@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expenseList is rendered with expenses as expected 1`] = `
+<DocumentFragment>
+   
+  <a
+    href="/edit/1"
+  >
+    <h3>
+      celine bag
+    </h3>
+  </a>
+   
+  <br />
+  <p>
+    850 - 123
+  </p>
+   
+</DocumentFragment>
+`;

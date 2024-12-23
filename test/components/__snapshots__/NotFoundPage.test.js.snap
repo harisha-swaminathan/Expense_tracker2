@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component is rendered as expected 1`] = `
+ReactShallowRenderer {
+  "_context": {},
+  "_didScheduleRenderPhaseUpdate": false,
+  "_dispatcher": {
+    "readContext": [Function],
+    "useCallback": [Function],
+    "useContext": [Function],
+    "useDebugValue": [Function],
+    "useDeferredValue": [Function],
+    "useEffect": [Function],
+    "useId": [Function],
+    "useImperativeHandle": [Function],
+    "useInsertionEffect": [Function],
+    "useLayoutEffect": [Function],
+    "useMemo": [Function],
+    "useReducer": [Function],
+    "useRef": [Function],
+    "useResponder": [Function],
+    "useState": [Function],
+    "useSyncExternalStore": [Function],
+    "useTransition": [Function],
+  },
+  "_element": <NotFoundPage />,
+  "_firstWorkInProgressHook": null,
+  "_forcedUpdate": false,
+  "_idCounter": 0,
+  "_instance": null,
+  "_isReRender": false,
+  "_newState": null,
+  "_numberOfReRenders": 0,
+  "_renderPhaseUpdates": null,
+  "_rendered": <div>
+    404! Page not found. 
+    <Link
+      to="/"
+    >
+       Go home!
+    </Link>
+  </div>,
+  "_rendering": false,
+  "_updater": Updater {
+    "_callbacks": [],
+    "_renderer": [Circular],
+  },
+  "_workInProgressHook": null,
+}
+`;

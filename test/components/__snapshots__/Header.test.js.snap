@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component is rendered as expected 1`] = `
+<DocumentFragment>
+   
+  <header>
+    <h1>
+       Hello! I'm the Header. 
+    </h1>
+    <a
+      aria-current="page"
+      class="is-active"
+      href="/"
+    >
+       Go home!
+    </a>
+     
+    <br />
+    <a
+      href="/create"
+    >
+       Add an expense
+    </a>
+     
+    <br />
+    <a
+      href="/help"
+    >
+       Get help
+    </a>
+     
+    <br />
+  </header>
+   
+</DocumentFragment>
+`;
