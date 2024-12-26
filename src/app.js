@@ -6,6 +6,8 @@ import getStore from './store/configureStore';
 
 import 'normalize.css/normalize.css';
 import "react-datepicker/dist/react-datepicker.css";
+import 'react-datepicker/dist/react-datepicker-cssmodules.css';
+
 import './styles/styles.scss';
 
 

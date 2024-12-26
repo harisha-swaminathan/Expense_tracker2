@@ -59,8 +59,8 @@ const CreateAndEditExpense = (props) => {
                     value = {amount}
                 />
                 <DatePicker 
-                    selected={createdAt} 
                     showIcon
+                    selected={createdAt} 
                     format="dd/MM/yy"
                     onChange={onDateChange} 
                 />

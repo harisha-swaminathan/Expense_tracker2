@@ -32,8 +32,8 @@ export const ExpenseListFilter = (props) => {
             <option value="amount">Amount</option>
         </select>
         <DatePicker
-            selected={startDate}
             showIcon
+            selected={startDate}
             onChange={(date) => {
                 props.setStartDate(date)
             }}
@@ -44,8 +44,8 @@ export const ExpenseListFilter = (props) => {
             isClearable={true}
         />
         <DatePicker
-            selected={endDate}
             showIcon
+            selected={endDate}
             onChange={(date) => {
                 props.setEndDate(date)
             }}

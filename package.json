@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "serve": "live-server public/",
-    "build": "webpack",
+    "build-dev": "webpack",
+    "build-prod": "webpack --env production",
     "dev-server": "webpack-dev-server"
   },
   "author": "Hswaminathan",
@@ -26,6 +27,7 @@
     "date-fns": "^4.1.0",
     "jest": "^29.7.0",
     "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.9.2",
     "normalize.css": "^8.0.1",
     "react": "^18.3.0",
     "react-datepicker": "^7.5.0",
