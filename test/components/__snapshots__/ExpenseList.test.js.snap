@@ -23,7 +23,7 @@ exports[`expenseList is rendered with expenses as expected 1`] = `
    
   <br />
   <p>
-    850 - 123
+    $8.50-December 31st, 1969
   </p>
   <a
     href="/edit/2"
@@ -35,7 +35,7 @@ exports[`expenseList is rendered with expenses as expected 1`] = `
    
   <br />
   <p>
-    1250 - 456
+    $12.50-December 31st, 1969
   </p>
   <a
     href="/edit/3"
@@ -47,7 +47,7 @@ exports[`expenseList is rendered with expenses as expected 1`] = `
    
   <br />
   <p>
-    80 - 789
+    $0.80-December 31st, 1969
   </p>
    
 </DocumentFragment>
