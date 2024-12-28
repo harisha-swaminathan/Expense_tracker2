@@ -9,8 +9,9 @@ module.exports = (env) => {
     mode: 'development',
     entry: './src/app.js',
     output: {
-        path: path.join(__dirname, 'public'),
+        path: path.join(__dirname, 'public', 'dist'),
         filename: 'bundle.js',
+        publicPath: '/dist/'
     },
     module: {
       rules: [{
@@ -37,9 +38,11 @@ module.exports = (env) => {
     plugins: [new MiniCssExtractPlugin()],
     devtool: isProd ? 'source-map' : 'inline-source-map',
     devServer: {
-      static: {
-        directory: path.join(__dirname, 'public'),
-      },
+      static: [
+        {
+          directory: path.join(__dirname, 'public'), // Serve index.html and other static assets
+        }
+      ],
       historyApiFallback: true
     }
   };
