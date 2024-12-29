@@ -35,6 +35,7 @@ ReactShallowRenderer {
   "_rendered": <div>
     <Memo(Connect(ExpenseListFilter)) />
     <Memo(Connect(ExpenseList)) />
+    <Memo(Connect(ExpensesSummary)) />
   </div>,
   "_rendering": false,
   "_updater": Updater {

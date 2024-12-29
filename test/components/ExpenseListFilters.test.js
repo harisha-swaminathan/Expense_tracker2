@@ -1,9 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent} from '@testing-library/react';
-import { userEvent } from '@testing-library/user-event';
 import { ExpenseListFilter } from "../../src/components/ExpenseListFilters";
-import { BrowserRouter } from 'react-router-dom';
-import expenses from '../fixtures/expenses';
 import filters from '../fixtures/filters';
 import '@testing-library/jest-dom';
 
