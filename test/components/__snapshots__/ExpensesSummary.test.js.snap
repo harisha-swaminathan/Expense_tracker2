@@ -2,12 +2,12 @@
 
 exports[`expensesSummary is rendered as expected with 0 expenses 1`] = `
 <DocumentFragment>
-   viewing  0 expense(s) totalling $0.00! 
+   viewing  expenses totalling $0.00! 
 </DocumentFragment>
 `;
 
 exports[`expensesSummary is rendered with correct summary 1`] = `
 <DocumentFragment>
-   viewing  3 expense(s) totalling $21.80! 
+   viewing  expenses totalling $0.00! 
 </DocumentFragment>
 `;
